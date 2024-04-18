@@ -84,8 +84,10 @@ cuánto cuesta y si está disponible en ese momento o no.
             - El costo debe ser un número que pueda incluir decimales.
             - La disponibilidad debe ser un valor booleano que indique si el souvenir puede ser comprado (true) o no (false).
     - Verificación de Tipos de Datos:
-        - Julian quiere asegurarse de que los tipos de datos sean correctos para evitar errores al calcular costos o al mostrar la disponibilidad de los souvenirs. 
-	El programa debe incluir una función que verifique el tipo de cada dato ingresado usando typeof y que informe si los tipos son los esperados.
+        - Julian quiere asegurarse de que los tipos de datos sean correctos para evitar errores al calcular costos o al mostrar la 
+	disponibilidad de los souvenirs. 
+	El programa debe incluir una función que verifique el tipo de cada dato ingresado usando typeof y que informe 
+	si los tipos son los esperados.
 
 **Consejos para Julian:**
 
@@ -186,12 +188,15 @@ _____________________
 
 - Reto 3: Decisiones de Última Hora
 
-Descripción: Julian está finalizando su empaque para un viaje y enfrenta varias decisiones de última hora sobre qué artículos adicionales llevar. Él necesita un programa en JavaScript que evalúe múltiples condiciones, como el clima, el espacio disponible en su maleta, y el peso total permitido para ayudarlo a decidir qué objetos incluir.
+Descripción: Julian está finalizando su empaque para un viaje y enfrenta varias decisiones de última hora sobre qué artículos 
+adicionales llevar. Él necesita un programa en JavaScript que evalúe múltiples condiciones, como el clima, el espacio disponible 
+en su maleta, y el peso total permitido para ayudarlo a decidir qué objetos incluir.
 
 **Detalles del Reto:**
 - Establecimiento de Condiciones:
     - Evaluación de Condiciones:
-        - Julian necesita considerar varios factores al decidir qué empacar adicionalmente. Estos factores incluyen el pronóstico del clima, el espacio restante en la maleta, y el límite de peso de su equipaje.
+        - Julian necesita considerar varios factores al decidir qué empacar adicionalmente. Estos factores incluyen el pronóstico 
+	del clima, el espacio restante en la maleta, y el límite de peso de su equipaje.
         - Cada decisión sobre un artículo adicional dependerá de la combinación de estas condiciones.
     - Implementación de Lógica Condicional:
         - Utiliza múltiples estructuras if-else anidadas para determinar qué artículos puede llevar Julian. Por ejemplo, si el pronóstico indica lluvia, Julian considerará llevar un paraguas.
