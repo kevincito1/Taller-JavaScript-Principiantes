@@ -3,7 +3,12 @@ let desicion = true
 
 let souvenirsList = [];
 
+function types (data) {
+    return alert(`El tipo de dato ingresado como ${data} es de tipo ${typeof(data)}`)
+    }
+
 while (desicion) {  
+
 
     let nameSouvenir = prompt("indica el nombre del souvenir")
     let priceSouvenir = Number(prompt("Indica el precio del souvenir"))
@@ -24,19 +29,16 @@ while (desicion) {
 
     let moreSouvenirs = prompt("Deseas agregar otro souvenir?").toLowerCase();
     if (moreSouvenirs === "no"){
-        desicion = false
-
-        function types (data) {
-            return alert(typeof(data))
-            }
-            types(nameSouvenir);
-            types(priceSouvenir);
-            types(disponibilitySouvenir);
+        desicion = false        
     }    
+
+    types(nameSouvenir);
+    types(priceSouvenir);
+    types(disponibilitySouvenir);
 
 }
 
 console.log(souvenirsList);
 
-
+  
 
