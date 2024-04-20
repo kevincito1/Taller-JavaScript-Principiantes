@@ -97,13 +97,16 @@ Asegúrate de proporcionar mensajes claros de error o confirmación sobre los ti
 
 **Instrucciones Adicionales:**
 
-Implementa una estructura de control que permita a Julian revisar todos los souvenirs ingresados y decidir cuáles quiere comprar, basándose en su disponibilidad y su presupuesto actual. Esta lógica debería ayudar a Julian a gestionar sus recursos de manera eficiente durante el viaje.
+Implementa una estructura de control que permita a Julian revisar todos los souvenirs ingresados y decidir cuáles quiere comprar, basándose en su disponibilidad y su presupuesto actual. 
+Esta lógica debería ayudar a Julian a gestionar sus recursos de manera eficiente durante el viaje.
 
 _____________________
 
 - Reto 3: Planificación del Itinerario
 
-Descripción: Julian necesita un programa en JavaScript que le ayude a decidir si puede incluir un artículo extra en su equipaje, basado en el presupuesto final que tiene después de planificar su viaje. Este programa debería evaluar si el presupuesto restante de Julian después de todos los gastos planeados es suficiente para permitirle comprar un artículo adicional sin exceder su límite financiero.
+Descripción: Julian necesita un programa en JavaScript que le ayude a decidir si puede incluir un artículo extra en su equipaje, basado en el presupuesto final que tiene 
+después de planificar su viaje. Este programa debería evaluar si el presupuesto restante de Julian después de todos los gastos planeados es suficiente para permitirle 
+comprar un artículo adicional sin exceder su límite financiero.
 
 **Detalles del Reto:**
 
@@ -112,7 +115,8 @@ Descripción: Julian necesita un programa en JavaScript que le ayude a decidir s
         - El programa debe permitir a Julian ingresar el total de su presupuesto inicial y los costos estimados de su viaje, incluyendo alojamiento, transporte y comida.
         - Julian desea saber si el dinero que le queda después de cubrir estos gastos básicos es suficiente para adquirir un artículo extra que ha estado considerando.
     - Lógica de Decisión:
-        - Utiliza una estructura if-else para determinar si el presupuesto restante supera un cierto umbral. Si Julian tiene más dinero que este umbral, entonces puede considerar llevar el artículo extra.
+        - Utiliza una estructura if-else para determinar si el presupuesto restante supera un cierto umbral. Si Julian tiene más dinero que este umbral, entonces puede considerar 
+	llevar el artículo extra.
         - Si el dinero restante es inferior al umbral, el programa debería aconsejar a Julian que evite gastos adicionales para no sobrepasar su presupuesto.
     - Determinación de Viabilidad:
         - El umbral para la decisión debería ser una cantidad fija que Julian considere como mínimo necesario para gastos imprevistos o emergencias durante el viaje.
@@ -125,7 +129,8 @@ Asegúrate de que la estructura if-else está correctamente implementada para re
 
 **Instrucciones Adicionales:**
 
-Considera agregar una funcionalidad donde Julian pueda introducir múltiples opciones de artículos extras con diferentes costos. El programa podría entonces no solo decirle si puede comprar el artículo extra, sino también cuál de ellos es la opción más económica que aún se ajusta a su presupuesto.
+Considera agregar una funcionalidad donde Julian pueda introducir múltiples opciones de artículos extras con diferentes costos. El programa podría entonces 
+no solo decirle si puede comprar el artículo extra, sino también cuál de ellos es la opción más económica que aún se ajusta a su presupuesto.
 
 ***
 
@@ -135,7 +140,9 @@ Considera agregar una funcionalidad donde Julian pueda introducir múltiples opc
 
 - Reto 1: La Evaluación de Julian
 
-Descripción: Julian desea un programa en JavaScript que le ayude a decidir sus actividades diarias basado en ciertos estados de ánimo y condiciones externas. El programa debe evaluar varias condiciones utilizando valores truthy y falsy para determinar si Julian decide salir a correr, trabajar en proyectos personales, o simplemente tomar un día libre.
+Descripción: Julian desea un programa en JavaScript que le ayude a decidir sus actividades diarias basado en ciertos estados de ánimo y condiciones externas. 
+El programa debe evaluar varias condiciones utilizando valores truthy y falsy para determinar si Julian decide salir a correr, trabajar en proyectos personales, 
+o simplemente tomar un día libre.
 
 **Detalles del Reto:**
 - Establecimiento de Condiciones:
@@ -146,7 +153,8 @@ Descripción: Julian desea un programa en JavaScript que le ayude a decidir sus 
         - Utiliza una serie de declaraciones if-else para evaluar los factores. Por ejemplo, si el nivel de energía de Julian es bajo (null o 0), puede decidir no salir a correr y en lugar de eso tomar un día libre.
         - Considera cómo condiciones como un clima malo (undefined o false) podrían influir en su decisión de quedarse en casa trabajando en proyectos personales o simplemente relajarse.
     - Influencia de Truthy y Falsy:
-        - Asegúrate de que Julian entienda cómo valores aparentemente no relacionados pueden influir en la lógica de control de flujo. Por ejemplo, cualquier string no vacío es truthy y podría representar un clima bueno, lo que animaría a Julian a salir a correr.
+        - Asegúrate de que Julian entienda cómo valores aparentemente no relacionados pueden influir en la lógica de control de flujo. Por ejemplo, cualquier string no vacío es 
+	truthy y podría representar un clima bueno, lo que animaría a Julian a salir a correr.
 
 **Consejos para Julian:**
 
@@ -162,7 +170,9 @@ _____________________
 
 - Reto 2: Calculadora de Presupuesto
 
-Descripción: Julian está interesado en desarrollar un programa en JavaScript que le ayude a administrar su presupuesto diario. Este programa debe calcular si el dinero que tiene es suficiente para cubrir varios gastos como salir a comer, comprar un libro nuevo o ahorrar algo de dinero. Julian utilizará una combinación de operadores matemáticos y lógicos para tomar estas decisiones.
+Descripción: Julian está interesado en desarrollar un programa en JavaScript que le ayude a administrar su presupuesto diario. Este programa debe calcular si el dinero que tiene es 
+suficiente para cubrir varios gastos como salir a comer, comprar un libro nuevo o ahorrar algo de dinero. Julian utilizará una combinación de operadores matemáticos y lógicos para 
+tomar estas decisiones.
 
 **Detalles del Reto:**
 - Requerimientos del Programa:
@@ -174,7 +184,8 @@ Descripción: Julian está interesado en desarrollar un programa en JavaScript q
         - Emplea operadores lógicos para determinar si Julian puede permitirse uno, ambos o ninguno de los gastos, asegurándose de que aún pueda alcanzar su objetivo de ahorro.
     - Uso de Operadores:
         - Implementa operadores como >, <, &&, ||, y ! para evaluar si las condiciones financieras permiten a Julian realizar cada actividad.
-        - Por ejemplo, si Julian quiere comer fuera y comprar un libro, pero solo tiene presupuesto suficiente para uno de esos gastos, debe decidir cuál priorizar basado en la importancia o el deseo.
+        - Por ejemplo, si Julian quiere comer fuera y comprar un libro, pero solo tiene presupuesto suficiente para uno de esos gastos, debe decidir cuál priorizar basado en la 
+	importancia o el deseo.
 
 **Consejos para Julian:**
 Organiza las condiciones de manera que primero verifiques cada gasto individualmente y luego considera combinaciones de gastos usando operadores lógicos.
@@ -182,7 +193,8 @@ Organiza las condiciones de manera que primero verifiques cada gasto individualm
 Reflexiona sobre cómo podrías estructurar las condiciones para que Julian no solo vea si puede cubrir sus gastos, sino también cómo afectan estas decisiones a su capacidad para ahorrar.
 
 **Instrucciones Adicionales:**
-Considera incluir una interfaz simple de usuario que permita a Julian ingresar sus datos financieros y recibir feedback inmediato sobre sus opciones de gasto y ahorro. Esto podría implementarse a través de prompts para entrada de datos y alertas o console.log para mostrar los resultados.
+Considera incluir una interfaz simple de usuario que permita a Julian ingresar sus datos financieros y recibir feedback inmediato sobre sus opciones de gasto y ahorro. 
+Esto podría implementarse a través de prompts para entrada de datos y alertas o console.log para mostrar los resultados.
 
 _____________________
 
