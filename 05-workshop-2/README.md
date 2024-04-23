@@ -36,8 +36,10 @@
 
 Reto 1: El Viaje de Julian
 
-Descripción: Julian está planificando un viaje y necesita un programa en JavaScript que lo ayude a organizar su itinerario. Este programa debe permitirle definir
- y ajustar el destino, la duración del viaje en días y el presupuesto estimado para el viaje. Es importante que Julian pueda modificar algunos de estos datos a medida que planifica, 
+Descripción: Julian está planificando un viaje y necesita un programa en JavaScript que lo ayude a organizar su itinerario. 
+Este programa debe permitirle definir
+ y ajustar el destino, la duración del viaje en días y el presupuesto estimado para el viaje. Es importante que Julian 
+pueda modificar algunos de estos datos a medida que planifica, 
 mientras que otros permanecerán constantes.
 
 
@@ -48,14 +50,17 @@ mientras que otros permanecerán constantes.
         - Julian debe poder establecer el destino de su viaje. Una vez establecido, el destino no debería cambiar.
 
     - Establecer la cantidad de días:
-        - Julian debería ser capaz de establecer y ajustar la cantidad de días que durará su viaje. Esto es porque podría recibir recomendaciones que le hagan querer extender o acortar 
+        - Julian debería ser capaz de establecer y ajustar la cantidad de días que durará su viaje. Esto es porque podría recibir 
+	recomendaciones que le hagan querer extender o acortar 
 	su estancia.
     - Presupuesto del viaje:
-        - Julian necesita fijar un presupuesto inicial para su viaje, pero también debe ser capaz de ajustarlo según encuentre diferentes opciones de alojamiento, transporte y actividades.
+        - Julian necesita fijar un presupuesto inicial para su viaje, pero también debe ser capaz de ajustarlo según encuentre 
+	diferentes opciones de alojamiento, transporte y actividades.
 
 **Consejos para Julian:**
 
-Decide qué datos son propensos a cambiar durante la fase de planificación y cuáles no. Esto te ayudará a elegir entre usar let, o const para declarar tus variables.
+Decide qué datos son propensos a cambiar durante la fase de planificación y cuáles no. Esto te ayudará a elegir entre usar let, 
+o const para declarar tus variables.
 Considera la importancia de cada tipo de dato y cómo la flexibilidad en la modificación de estos datos puede afectar la planificación de tu viaje.
 
 **Instrucciones Adicionales:**
@@ -68,15 +73,18 @@ _________________
 
 - Reto 2: Tipos de Souvenirs
 
-Descripción: Julian desea tener un programa en JavaScript que le permita gestionar una lista de souvenirs potenciales para comprar durante su viaje. Cada souvenir tiene características 
-específicas: un nombre, un costo y la disponibilidad para la compra. Es importante que Julian pueda evaluar cada uno de estos aspectos, que están representados por diferentes 
+Descripción: Julian desea tener un programa en JavaScript que le permita gestionar una lista de souvenirs potenciales para 
+comprar durante su viaje. Cada souvenir tiene características 
+específicas: un nombre, un costo y la disponibilidad para la compra. Es importante que Julian pueda evaluar cada uno de estos 
+aspectos, que están representados por diferentes 
 tipos de datos en el programa.
 
 **Detalles del Reto:**
 
 - Requerimientos del Programa:
     - Gestión de souvenirs:
-        - El programa debe permitir a Julian introducir diversos souvenirs con sus respectivos detalles. Julian quiere poder ingresar el nombre del souvenir, 
+        - El programa debe permitir a Julian introducir diversos souvenirs con sus respectivos detalles. Julian quiere 
+	poder ingresar el nombre del souvenir, 
 cuánto cuesta y si está disponible en ese momento o no.
     - Representación de Datos:
         - Cada aspecto del souvenir (nombre, costo, disponibilidad) debe ser representado por un tipo de dato adecuado:
@@ -91,13 +99,16 @@ cuánto cuesta y si está disponible en ese momento o no.
 
 **Consejos para Julian:**
 
-Considera utilizar funciones para capturar y validar la entrada del usuario. Esto puede ayudar a mantener tu código organizado y facilitar la verificación de tipos.
+Considera utilizar funciones para capturar y validar la entrada del usuario. Esto puede ayudar a mantener tu código organizado
+ y facilitar la verificación de tipos.
 
-Asegúrate de proporcionar mensajes claros de error o confirmación sobre los tipos de datos para cada entrada, lo cual es crucial para la depuración y el mantenimiento del código.
+Asegúrate de proporcionar mensajes claros de error o confirmación sobre los tipos de datos para cada entrada,
+ lo cual es crucial para la depuración y el mantenimiento del código.
 
 **Instrucciones Adicionales:**
 
-Implementa una estructura de control que permita a Julian revisar todos los souvenirs ingresados y decidir cuáles quiere comprar, basándose en su disponibilidad y su presupuesto actual. 
+Implementa una estructura de control que permita a Julian revisar todos los souvenirs ingresados y 
+decidir cuáles quiere comprar, basándose en su disponibilidad y su presupuesto actual. 
 Esta lógica debería ayudar a Julian a gestionar sus recursos de manera eficiente durante el viaje.
 
 _____________________
@@ -170,30 +181,39 @@ _____________________
 
 - Reto 2: Calculadora de Presupuesto
 
-Descripción: Julian está interesado en desarrollar un programa en JavaScript que le ayude a administrar su presupuesto diario. Este programa debe calcular si el dinero que tiene es 
-suficiente para cubrir varios gastos como salir a comer, comprar un libro nuevo o ahorrar algo de dinero. Julian utilizará una combinación de operadores matemáticos y lógicos para 
+Descripción: Julian está interesado en desarrollar un programa en JavaScript que le ayude a administrar su presupuesto diario. 
+Este programa debe calcular si el dinero que tiene es 
+suficiente para cubrir varios gastos como salir a comer, comprar un libro nuevo o ahorrar algo de dinero. 
+Julian utilizará una combinación de operadores matemáticos y lógicos para 
 tomar estas decisiones.
 
 **Detalles del Reto:**
 - Requerimientos del Programa:
     - Definir Parámetros de Presupuesto:
-        - El programa deberá permitir a Julian introducir su presupuesto diario y los costos estimados de actividades como comer fuera y comprar libros.
+        - El programa deberá permitir a Julian introducir su presupuesto diario y los costos 
+	estimados de actividades como comer fuera y comprar libros.
         - Julian también deberá establecer un mínimo de ahorro diario que le gustaría alcanzar.
     - Evaluación de Gastos:
         - Utiliza operadores matemáticos para comparar el presupuesto de Julian con los costos de las actividades.
-        - Emplea operadores lógicos para determinar si Julian puede permitirse uno, ambos o ninguno de los gastos, asegurándose de que aún pueda alcanzar su objetivo de ahorro.
+        - Emplea operadores lógicos para determinar si Julian puede permitirse uno, ambos o ninguno de los gastos, 
+	asegurándose de que aún pueda alcanzar su objetivo de ahorro.
     - Uso de Operadores:
-        - Implementa operadores como >, <, &&, ||, y ! para evaluar si las condiciones financieras permiten a Julian realizar cada actividad.
-        - Por ejemplo, si Julian quiere comer fuera y comprar un libro, pero solo tiene presupuesto suficiente para uno de esos gastos, debe decidir cuál priorizar basado en la 
+        - Implementa operadores como >, <, &&, ||, y ! para evaluar si las condiciones financieras 
+	permiten a Julian realizar cada actividad.
+        - Por ejemplo, si Julian quiere comer fuera y comprar un libro, pero solo tiene presupuesto suficiente 
+	para uno de esos gastos, debe decidir cuál priorizar basado en la 
 	importancia o el deseo.
 
 **Consejos para Julian:**
-Organiza las condiciones de manera que primero verifiques cada gasto individualmente y luego considera combinaciones de gastos usando operadores lógicos.
+Organiza las condiciones de manera que primero verifiques cada gasto individualmente y luego considera combinaciones 
+de gastos usando operadores lógicos.
 
-Reflexiona sobre cómo podrías estructurar las condiciones para que Julian no solo vea si puede cubrir sus gastos, sino también cómo afectan estas decisiones a su capacidad para ahorrar.
+Reflexiona sobre cómo podrías estructurar las condiciones para que Julian no solo vea si puede cubrir sus gastos, 
+sino también cómo afectan estas decisiones a su capacidad para ahorrar.
 
 **Instrucciones Adicionales:**
-Considera incluir una interfaz simple de usuario que permita a Julian ingresar sus datos financieros y recibir feedback inmediato sobre sus opciones de gasto y ahorro. 
+Considera incluir una interfaz simple de usuario que permita a Julian ingresar sus datos financieros y recibir feedback 
+inmediato sobre sus opciones de gasto y ahorro. 
 Esto podría implementarse a través de prompts para entrada de datos y alertas o console.log para mostrar los resultados.
 
 _____________________
@@ -211,15 +231,20 @@ en su maleta, y el peso total permitido para ayudarlo a decidir qué objetos inc
 	del clima, el espacio restante en la maleta, y el límite de peso de su equipaje.
         - Cada decisión sobre un artículo adicional dependerá de la combinación de estas condiciones.
     - Implementación de Lógica Condicional:
-        - Utiliza múltiples estructuras if-else anidadas para determinar qué artículos puede llevar Julian. Por ejemplo, si el pronóstico indica lluvia, Julian considerará llevar un paraguas.
-        - Además, si Julian tiene espacio adicional y el peso de su equipaje lo permite, podría decidir llevar una cámara o algún otro artículo que no sea esencial pero deseable.
+        - Utiliza múltiples estructuras if-else anidadas para determinar qué artículos puede llevar Julian. Por ejemplo, 
+	si el pronóstico indica lluvia, Julian considerará llevar un paraguas.
+        - Además, si Julian tiene espacio adicional y el peso de su equipaje lo permite, podría decidir llevar una cámara o 
+	algún otro artículo que no sea esencial pero deseable.
     - Priorización de Artículos:
-        - En casos donde Julian deba elegir entre múltiples artículos debido a restricciones de espacio o peso, el programa deberá ayudarlo a priorizar qué artículos son más importantes o útiles basándose en el clima y la duración del viaje.
+        - En casos donde Julian deba elegir entre múltiples artículos debido a restricciones de espacio o peso, 
+el programa deberá ayudarlo a priorizar qué artículos son más importantes o útiles basándose en el clima y la duración del viaje.
 
 **Consejos para Julian:**
 
-Piensa en cómo las condiciones pueden superponerse y afectar las decisiones de otros artículos. Por ejemplo, llevar un paraguas podría ser más crítico que una cámara si se espera mucha lluvia.
-Considera cómo cada decisión afecta al límite de peso total, especialmente cuando los artículos adicionales son relativamente pesados.
+Piensa en cómo las condiciones pueden superponerse y afectar las decisiones de otros artículos. Por ejemplo, 
+llevar un paraguas podría ser más crítico que una cámara si se espera mucha lluvia.
+Considera cómo cada decisión afecta al límite de peso total, especialmente cuando los artículos adicionales 
+son relativamente pesados.
 
 **Instrucciones Adicionales:**
 

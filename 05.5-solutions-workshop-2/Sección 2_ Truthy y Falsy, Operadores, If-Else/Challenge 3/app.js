@@ -46,6 +46,6 @@ const articlesSnowy = [{
 const spaceBagDispo = 6;
 const weightBagDispo = 10;
 
-weather.forEach(element => {
-    console.log(element)
+articlesSunny.forEach(element => {
+    console.log(element[0])
 });
